@@ -6,7 +6,7 @@ A curated map of **TDK (Tilt Development Kit)**: the CLI, guides, examples, inte
   <a href="https://github.com/flisk-sh/flisk/actions/workflows/ci.yml"><img alt="Core CI status" src="https://img.shields.io/github/actions/workflow/status/flisk-sh/flisk/ci.yml?branch=main&style=flat-square&label=CI&color=EE924E"></a>
   <a href="https://github.com/flisk-sh/flisk/actions/workflows/erp-scale-e2e.yml"><img alt="ERP scale end-to-end status" src="https://img.shields.io/github/actions/workflow/status/flisk-sh/flisk/erp-scale-e2e.yml?branch=main&style=flat-square&label=Scale%20E2E&color=EE924E"></a>
   <a href="https://github.com/flisk-sh/flisk"><img alt="Core repository stars" src="https://img.shields.io/github/stars/flisk-sh/flisk?style=flat-square&color=EE924E"></a>
-  <a href="https://www.npmjs.com/package/@tdk-landscape/tdk-cli-core"><img alt="TDK CLI npm version" src="https://img.shields.io/npm/v/%40tdk-landscape/tdk-cli-core?style=flat-square&color=EE924E"></a>
+  <a href="https://www.npmjs.com/package/@flisk-sh/flisk"><img alt="TDK CLI npm version" src="https://img.shields.io/npm/v/%40tdk-landscape/tdk-cli-core?style=flat-square&color=EE924E"></a>
   <a href="https://github.com/flisk-sh/flisk/blob/main/LICENSE"><img alt="Core project license" src="https://img.shields.io/github/license/flisk-sh/flisk?style=flat-square&color=EE924E"></a>
 </p>
 
@@ -37,14 +37,14 @@ A curated map of **TDK (Tilt Development Kit)**: the CLI, guides, examples, inte
 - [TDK website](https://flisk.sh/): overview, documentation, and project news. **Official**
 - [Quickstart](https://flisk.sh/docs/quickstart/): install TDK and run your first local stack. **Official**
 - [flisk](https://github.com/flisk-sh/flisk): the main public monorepo for the CLI, Tilt engine, and service discovery. **Official**
-  - Install: `npm i -g @tdk-landscape/tdk-cli-core` or [the install script](https://flisk.sh/install.sh).
+  - Install: `npm i -g @flisk-sh/flisk` or [the install script](https://flisk.sh/install.sh).
   - Run: `tdk doctor` then `tdk project example` / `tdk up`.
   - Issues: [tdk-cli-core issue tracker](https://github.com/flisk-sh/flisk/issues) only. This `awesome-tdk-framework` catalog is not the CLI.
 
 ## Core framework and releases
 
 - [CLI quick start and command overview](https://github.com/flisk-sh/flisk#quick-start): install TDK, create a project, scaffold a resource, and run a stack. **Official**
-- [npm package](https://www.npmjs.com/package/@tdk-landscape/tdk-cli-core): install the TDK CLI with npm or Bun. **Official**
+- [npm package](https://www.npmjs.com/package/@flisk-sh/flisk): install the TDK CLI with npm or Bun. **Official**
 - [tdk-cli-releases](https://github.com/flisk-sh/releases/releases): prebuilt TDK CLI binaries for supported platforms. **Official**
 - [flisk.sh](https://github.com/flisk-sh/flisk-sh.github.io): source for the public install site and CLI installer. **Official**
 - [Install script](https://flisk.sh/install.sh): shell installer for the published CLI binary. **Official**
