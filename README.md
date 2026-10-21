@@ -36,7 +36,7 @@ A curated map of **TDK (Tilt Development Kit)**: the CLI, guides, examples, inte
 
 - [TDK website](https://flisk.sh/): overview, documentation, and project news. **Official**
 - [Quickstart](https://flisk.sh/docs/quickstart/): install TDK and run your first local stack. **Official**
-- [tdk-cli-core](https://github.com/flisk-sh/flisk): the main public monorepo for the CLI, Tilt engine, and service discovery. **Official**
+- [flisk](https://github.com/flisk-sh/flisk): the main public monorepo for the CLI, Tilt engine, and service discovery. **Official**
   - Install: `npm i -g @tdk-landscape/tdk-cli-core` or [the install script](https://flisk.sh/install.sh).
   - Run: `tdk doctor` then `tdk project example` / `tdk up`.
   - Issues: [tdk-cli-core issue tracker](https://github.com/flisk-sh/flisk/issues) only. This `awesome-tdk-framework` catalog is not the CLI.
@@ -312,7 +312,7 @@ Use TDK from AI coding agents. Agents run `tdk up` locally; none of this is a de
 - [Agents guide](https://flisk.sh/docs/agents/): how agents should drive the TDK CLI. **Official**
 - [Website llms.txt](https://flisk.sh/llms.txt): machine-readable index of the TDK docs. **Official**
 - [tdk-skills llms.txt](https://github.com/flisk-sh/tdk-skills/blob/main/llms.txt): index of every skill and rules template with raw URLs. **Official**
-- [Repository rule templates](https://github.com/flisk-sh/tdk-skills/tree/main/rules): baseline `AGENTS.md` files for TDK project repos and for `tdk-cli-core` contributors. **Official**
+- [Repository rule templates](https://github.com/flisk-sh/tdk-skills/tree/main/rules): baseline `AGENTS.md` files for TDK project repos and for `flisk` contributors. **Official**
 
 ## Notes and gists
 
@@ -452,7 +452,7 @@ TDK references: [CLI scripts and dependencies](https://github.com/flisk-sh/flisk
 ## Extensions and historical projects
 
 - [Current CLI extensions](https://github.com/flisk-sh/flisk/tree/main/ext): extension and IDE integration source maintained in the core monorepo. **Official**
-- [tdk-discovery](https://github.com/flisk-sh/tdk-discovery): **Archived.** Earlier standalone service-discovery repository; current development is in [tdk-cli-core](https://github.com/flisk-sh/flisk).
+- [tdk-discovery](https://github.com/flisk-sh/tdk-discovery): **Archived.** Earlier standalone service-discovery repository; current development is in [flisk](https://github.com/flisk-sh/flisk).
 - [tdk-ext](https://github.com/flisk-sh/tdk-ext): **Archived.** Earlier extensions repository; use the current [tdk-cli-core extension documentation](https://github.com/flisk-sh/flisk/tree/main/ext) for current work.
 - [tdk](https://github.com/flisk-sh/tdk): **Archived.** Earlier platform specifications and generators repository; consult the current core repository and website for maintained material.
 
