@@ -452,8 +452,8 @@ TDK references: [CLI scripts and dependencies](https://github.com/flisk-sh/flisk
 ## Extensions and historical projects
 
 - [Current CLI extensions](https://github.com/flisk-sh/flisk/tree/main/ext): extension and IDE integration source maintained in the core monorepo. **Official**
-- [tdk-discovery](https://github.com/flisk-sh/tdk-discovery): **Archived.** Earlier standalone service-discovery repository; current development is in [flisk](https://github.com/flisk-sh/flisk).
-- [tdk-ext](https://github.com/flisk-sh/tdk-ext): **Archived.** Earlier extensions repository; use the current [tdk-cli-core extension documentation](https://github.com/flisk-sh/flisk/tree/main/ext) for current work.
+- [tdk-discovery](https://github.com/flisk-sh/flisk): **Archived.** Earlier standalone service-discovery repository; current development is in [flisk](https://github.com/flisk-sh/flisk).
+- [tdk-ext](https://github.com/flisk-sh/flisk): **Archived.** Earlier extensions repository; use the current [tdk-cli-core extension documentation](https://github.com/flisk-sh/flisk/tree/main/ext) for current work.
 - [tdk](https://github.com/flisk-sh/tdk): **Archived.** Earlier platform specifications and generators repository; consult the current core repository and website for maintained material.
 
 ## Community and contribution
