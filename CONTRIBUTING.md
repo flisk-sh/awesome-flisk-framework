@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping make the TDK resource catalog more useful. This repository is a curated directory for developers using or extending [TDK](https://github.com/tdk-landscape/tdk-cli-core).
+Thanks for helping make the TDK resource catalog more useful. This repository is a curated directory for developers using or extending [TDK](https://github.com/flisk-sh/flisk).
 
 ## What belongs here
 
@@ -33,11 +33,11 @@ Add one Markdown bullet under the most relevant heading in `README.md`:
 - [Resource name](https://example.org): one-sentence description. **Community**
 ```
 
-Use **Official** for resources maintained by `tdk-landscape`, **Community** for independently maintained TDK resources, **External project** for a tool or technology used by TDK, and **Archived** for discontinued repositories. Use the appropriate label for the resource rather than assuming every project in the TDK organization is currently maintained.
+Use **Official** for resources maintained by `flisk-sh`, **Community** for independently maintained TDK resources, **External project** for a tool or technology used by TDK, and **Archived** for discontinued repositories. Use the appropriate label for the resource rather than assuming every project in the TDK organization is currently maintained.
 
 ## Submit a change
 
-For a small suggestion or a question, [open an issue](https://github.com/tdk-landscape/awesome-tdk-framework/issues). To add or correct links directly:
+For a small suggestion or a question, [open an issue](https://github.com/flisk-sh/awesome-tdk-framework/issues). To add or correct links directly:
 
 1. Fork the repository and create a branch.
 2. Edit `README.md` and follow the entry format above.
