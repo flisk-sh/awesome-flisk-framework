@@ -6,14 +6,14 @@ A curated map of **TDK (Tilt Development Kit)**: the CLI, guides, examples, inte
   <a href="https://github.com/flisk-sh/flisk/actions/workflows/ci.yml"><img alt="Core CI status" src="https://img.shields.io/github/actions/workflow/status/flisk-sh/flisk/ci.yml?branch=main&style=flat-square&label=CI&color=EE924E"></a>
   <a href="https://github.com/flisk-sh/flisk/actions/workflows/erp-scale-e2e.yml"><img alt="ERP scale end-to-end status" src="https://img.shields.io/github/actions/workflow/status/flisk-sh/flisk/erp-scale-e2e.yml?branch=main&style=flat-square&label=Scale%20E2E&color=EE924E"></a>
   <a href="https://github.com/flisk-sh/flisk"><img alt="Core repository stars" src="https://img.shields.io/github/stars/flisk-sh/flisk?style=flat-square&color=EE924E"></a>
-  <a href="https://www.npmjs.com/package/@flisk-sh/flisk"><img alt="TDK CLI npm version" src="https://img.shields.io/npm/v/%40tdk-landscape/tdk-cli-core?style=flat-square&color=EE924E"></a>
+  <a href="https://www.npmjs.com/package/@flisk-sh/flisk"><img alt="TDK CLI npm version" src="https://img.shields.io/npm/v/%40flisk-sh%2Fflisk?style=flat-square&color=EE924E"></a>
   <a href="https://github.com/flisk-sh/flisk/blob/main/LICENSE"><img alt="Core project license" src="https://img.shields.io/github/license/flisk-sh/flisk?style=flat-square&color=EE924E"></a>
 </p>
 
 [Quickstart](https://flisk.sh/docs/quickstart/) | [Core repository](https://github.com/flisk-sh/flisk) | [Examples](https://flisk.sh/docs/examples/) | [Notes and gists](#notes-and-gists) | [CI and benchmarks](#ci-and-benchmarks) | [Article index](https://flisk.sh/blog/)
 
 > [!NOTE]
-> This catalog is for the TDK microservice development framework from [tdk-landscape](https://github.com/flisk-sh). TDK is an independent project built on [Tilt](https://tilt.dev); it is not affiliated with the electronics company also named TDK.
+> This catalog is for the TDK microservice development framework from [flisk-sh](https://github.com/flisk-sh). TDK is an independent project built on [Tilt](https://tilt.dev); it is not affiliated with the electronics company also named TDK.
 
 **How to read this index:** **Official** is maintained by TDK; **Community** is independently maintained; **External project** is a tool TDK uses; **Archived** marks a discontinued repository.
 
@@ -39,23 +39,23 @@ A curated map of **TDK (Tilt Development Kit)**: the CLI, guides, examples, inte
 - [flisk](https://github.com/flisk-sh/flisk): the main public monorepo for the CLI, Tilt engine, and service discovery. **Official**
   - Install: `npm i -g @flisk-sh/flisk` or [the install script](https://flisk.sh/install.sh).
   - Run: `tdk doctor` then `tdk project example` / `tdk up`.
-  - Issues: [tdk-cli-core issue tracker](https://github.com/flisk-sh/flisk/issues) only. This `awesome-tdk-framework` catalog is not the CLI.
+  - Issues: [flisk issue tracker](https://github.com/flisk-sh/flisk/issues) only. This `awesome-tdk-framework` catalog is not the CLI.
 
 ## Core framework and releases
 
 - [CLI quick start and command overview](https://github.com/flisk-sh/flisk#quick-start): install TDK, create a project, scaffold a resource, and run a stack. **Official**
 - [npm package](https://www.npmjs.com/package/@flisk-sh/flisk): install the TDK CLI with npm or Bun. **Official**
-- [tdk-cli-releases](https://github.com/flisk-sh/releases/releases): prebuilt TDK CLI binaries for supported platforms. **Official**
+- [releases](https://github.com/flisk-sh/releases/releases): prebuilt TDK CLI binaries for supported platforms. **Official**
 - [flisk.sh](https://github.com/flisk-sh/flisk-sh.github.io): source for the public install site and CLI installer. **Official**
 - [Install script](https://flisk.sh/install.sh): shell installer for the published CLI binary. **Official**
 - [Changelog](https://github.com/flisk-sh/flisk/blob/main/CHANGELOG.md): notable CLI and framework changes. **Official**
 
 ## Documentation and reference
 
-- [tdk-website](https://github.com/flisk-sh/website): source for the official documentation and project site. **Official**
+- [website](https://github.com/flisk-sh/website): source for the official documentation and project site. **Official**
 - [Examples guide](https://flisk.sh/docs/examples/): walkthroughs of projects built with TDK. **Official**
 - [Core repository docs](https://github.com/flisk-sh/flisk/tree/main/docs): detailed framework documentation. **Official**
-- [Contributing to tdk-cli-core](https://github.com/flisk-sh/flisk/blob/main/CONTRIBUTING.md): development setup and contribution workflow. **Official**
+- [Contributing to flisk](https://github.com/flisk-sh/flisk/blob/main/CONTRIBUTING.md): development setup and contribution workflow. **Official**
 - [MCP guide](https://github.com/flisk-sh/flisk/blob/main/docs/mcp.md): scaffold a Model Context Protocol server as a resource that `tdk up` starts like any other service. **Official**
 - [Bring-your-own (BYO) guide](https://github.com/flisk-sh/flisk/blob/main/docs/byo.md): wrap an existing service with TDK orchestration without generating application code. **Official**
 - [WSL2 guide](https://github.com/flisk-sh/flisk/blob/main/docs/wsl2.md): run TDK on Windows through WSL2. **Official**
@@ -321,7 +321,7 @@ Short public notes. These are **not** product reviews.
 **Official** = written by TDK maintainers or website contributors.
 
 **Community** = independent authors.
-Prefer [tdk-cli-core docs](https://github.com/flisk-sh/flisk/tree/main/docs) when the gist and the docs disagree.
+Prefer [flisk docs](https://github.com/flisk-sh/flisk/tree/main/docs) when the gist and the docs disagree.
 
 | Title | URL | Topic | Label | Maps to |
 | --- | --- | --- | --- | --- |
@@ -349,7 +349,7 @@ Maintainer notes: [kburym gists](https://gist.github.com/kburym) **Official**
 
 ## Starters and scaffolding
 
-- [create-tdk-stack](https://github.com/flisk-sh/create-flisk): starter generator and landing page for creating a TDK stack. **Official**
+- [create-flisk](https://github.com/flisk-sh/create-flisk): starter generator and landing page for creating a TDK stack. **Official**
 - [More example repositories](https://github.com/flisk-sh?tab=repositories&q=example): browse public TDK example repositories. **Official**
 
 ## Tools and technologies
@@ -453,14 +453,14 @@ TDK references: [CLI scripts and dependencies](https://github.com/flisk-sh/flisk
 
 - [Current CLI extensions](https://github.com/flisk-sh/flisk/tree/main/ext): extension and IDE integration source maintained in the core monorepo. **Official**
 - [tdk-discovery](https://github.com/flisk-sh/flisk): **Archived.** Earlier standalone service-discovery repository; current development is in [flisk](https://github.com/flisk-sh/flisk).
-- [tdk-ext](https://github.com/flisk-sh/flisk): **Archived.** Earlier extensions repository; use the current [tdk-cli-core extension documentation](https://github.com/flisk-sh/flisk/tree/main/ext) for current work.
+- [tdk-ext](https://github.com/flisk-sh/flisk): **Archived.** Earlier extensions repository; use the current [flisk extension documentation](https://github.com/flisk-sh/flisk/tree/main/ext) for current work.
 - [tdk](https://github.com/flisk-sh/tdk): **Archived.** Earlier platform specifications and generators repository; consult the current core repository and website for maintained material.
 
 ## Community and contribution
 
 - [TDK organization](https://github.com/flisk-sh): official public repositories and projects.
 - [Organization profile source](https://github.com/flisk-sh/.github/tree/main/profile): source for the public TDK organization profile.
-- [Open an issue on tdk-cli-core](https://github.com/flisk-sh/flisk/issues): ask questions, report a bug, or suggest a framework improvement.
+- [Open an issue on flisk](https://github.com/flisk-sh/flisk/issues): ask questions, report a bug, or suggest a framework improvement.
 - [Good first issues](https://github.com/flisk-sh/flisk/labels/good%20first%20issue): beginner-friendly ways to contribute to the core project.
 
 ## Contributing to this catalog
