@@ -302,7 +302,7 @@ For current run state, open a workflow above. Result files are point-in-time rec
 
 </details>
 
-- [TDK demo animation](https://github.com/flisk-sh/tdk-demo-animation): source for a short visual tour of the CLI workflow and generated project ([view the animation](https://flisk-sh.github.io/tdk-demo-animation/)). **Official**
+- [TDK demo animation](https://github.com/flisk-sh/flisk-demo-animation): source for a short visual tour of the CLI workflow and generated project ([view the animation](https://flisk-sh.github.io/flisk-demo-animation/)). **Official**
 
 ## Agents and skills
 
