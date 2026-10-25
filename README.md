@@ -69,7 +69,7 @@ Live checks, end-to-end coverage, and benchmark records for the core framework.
 | --- | --- |
 | Continuous integration | [Core CI workflow](https://github.com/flisk-sh/flisk/actions/workflows/ci.yml) validates the main repository checks. **Official** |
 | Quickstart coverage | [Quickstart E2E workflow](https://github.com/flisk-sh/flisk/actions/workflows/quickstart-e2e.yml) exercises the documented first-run path. **Official** |
-| Example coverage | [Examples E2E workflow](https://github.com/flisk-sh/flisk/actions/workflows/examples-e2e.yml) boots the [restaurant example](https://github.com/flisk-sh/tdk-restaurant-example) and [SaaS starter](https://github.com/flisk-sh/tdk-saas-starter) on a clean runner, then checks real API routes and frontend pages, not only `/health`. **Official** |
+| Example coverage | [Examples E2E workflow](https://github.com/flisk-sh/flisk/actions/workflows/examples-e2e.yml) boots the [restaurant example](https://github.com/flisk-sh/tdk-restaurant-example) and [SaaS starter](https://github.com/flisk-sh/flisk-saas-starter) on a clean runner, then checks real API routes and frontend pages, not only `/health`. **Official** |
 | Scale coverage | [ERP scale E2E workflow](https://github.com/flisk-sh/flisk/actions/workflows/erp-scale-e2e.yml) exercises the 100-service ERP landscape. [Successful run from Sep 28, 2026](https://github.com/flisk-sh/flisk/actions/runs/36397677358). **Official** |
 | Scale fixture | [tdk-erp-system](https://github.com/flisk-sh/tdk-erp-system) is the multi-domain fixture used for scale testing. **Official** |
 | Recorded results | [Benchmark results](https://github.com/flisk-sh/flisk/tree/main/benchmarks/results) contains timestamped raw result files. **Official** |
@@ -341,10 +341,10 @@ Maintainer notes: [kburym gists](https://gist.github.com/kburym) **Official**
 
 ## Examples and demo applications
 
-- [tdk-example](https://github.com/flisk-sh/tdk-example): small project demonstrating the Project-Stack-Resource model. **Official**
-- [tdk-saas-starter](https://github.com/flisk-sh/tdk-saas-starter): SaaS dashboard starter with a working checkout flow. **Official**
+- [flisk-example](https://github.com/flisk-sh/flisk-example): small project demonstrating the Project-Stack-Resource model. **Official**
+- [flisk-saas-starter](https://github.com/flisk-sh/flisk-saas-starter): SaaS dashboard starter with a working checkout flow. **Official**
 - [tdk-restaurant-example](https://github.com/flisk-sh/tdk-restaurant-example): restaurant operations example covering reservations, kitchen pacing, menu availability, and floor control. **Official**
-- [tdk-ecommerce-example](https://github.com/flisk-sh/tdk-ecommerce-example): Vue storefront and Hono catalog API built with TDK. **Official**
+- [flisk-ecommerce-example](https://github.com/flisk-sh/flisk-ecommerce-example): Vue storefront and Hono catalog API built with TDK. **Official**
 - [tdk-erp-system](https://github.com/flisk-sh/tdk-erp-system): 100-service ERP fixture across seven business domains, used for scale testing. **Official**
 
 ## Starters and scaffolding
@@ -383,7 +383,7 @@ TDK references: [core repository and install methods](https://github.com/flisk-s
 - [Commander.js](https://github.com/tj/commander.js): command and option parsing for the `tdk` CLI. **Core CLI**
 - [Handlebars](https://handlebarsjs.com/): templates used to generate service files and configuration. **Core generator**
 
-TDK references: [CLI dependencies](https://github.com/flisk-sh/flisk/blob/main/cli/package.json), [frontend framework providers](https://github.com/flisk-sh/flisk/blob/main/docs/frontend-framework-providers.md), [ecommerce example](https://github.com/flisk-sh/tdk-ecommerce-example), [auth, queue, and email example](https://github.com/flisk-sh/tdk-auth-queue-email-example).
+TDK references: [CLI dependencies](https://github.com/flisk-sh/flisk/blob/main/cli/package.json), [frontend framework providers](https://github.com/flisk-sh/flisk/blob/main/docs/frontend-framework-providers.md), [ecommerce example](https://github.com/flisk-sh/flisk-ecommerce-example), [auth, queue, and email example](https://github.com/flisk-sh/flisk-auth-queue-email-example).
 
 </details>
 
@@ -399,7 +399,7 @@ TDK references: [CLI dependencies](https://github.com/flisk-sh/flisk/blob/main/c
 - [Prisma](https://www.prisma.io/docs): opt-in schema, client, and migration workflow for backend resources. **Optional generator**
 - [NATS](https://docs.nats.io/), including [JetStream](https://docs.nats.io/nats-concepts/jetstream): messaging and persistence demonstrated in TDK's queue example. **Optional service and example**
 
-TDK references: [feature reference](https://github.com/flisk-sh/flisk/blob/main/docs/FEATURES.md), [core architecture and requirements](https://github.com/flisk-sh/flisk#requirements), [auth, queue, and email example](https://github.com/flisk-sh/tdk-auth-queue-email-example).
+TDK references: [feature reference](https://github.com/flisk-sh/flisk/blob/main/docs/FEATURES.md), [core architecture and requirements](https://github.com/flisk-sh/flisk#requirements), [auth, queue, and email example](https://github.com/flisk-sh/flisk-auth-queue-email-example).
 
 </details>
 
@@ -417,7 +417,7 @@ TDK references: [feature reference](https://github.com/flisk-sh/flisk/blob/main/
 - [Verdaccio](https://www.verdaccio.org/docs/installation/): private local npm registry. Requires a TDK license. **Paid optional service**
 - [Sablier](https://sablierapp.dev/): on-demand service start and stop. Requires a TDK license. **Paid optional service**
 
-TDK references: [optional infrastructure and premium features](https://github.com/flisk-sh/flisk/blob/main/docs/FEATURES.md), [auth, queue, and email example](https://github.com/flisk-sh/tdk-auth-queue-email-example).
+TDK references: [optional infrastructure and premium features](https://github.com/flisk-sh/flisk/blob/main/docs/FEATURES.md), [auth, queue, and email example](https://github.com/flisk-sh/flisk-auth-queue-email-example).
 
 </details>
 
@@ -441,13 +441,13 @@ TDK references: [CLI scripts and dependencies](https://github.com/flisk-sh/flisk
 ## Development, deployment, and observability
 
 - [Feature reference](https://github.com/flisk-sh/flisk/blob/main/docs/FEATURES.md): project and resource features, including monitoring, ELK, Debezium CDC, and local registry options. **Official**
-- [tdk-docker-compose-example](https://github.com/flisk-sh/tdk-docker-compose-example): run the TDK CLI and its development workflow from Docker Compose. **Official**
+- [flisk-docker-compose-example](https://github.com/flisk-sh/flisk-docker-compose-example): run the TDK CLI and its development workflow from Docker Compose. **Official**
 
 ## Security and identity
 
 - [Security policy](https://github.com/flisk-sh/flisk/blob/main/SECURITY.md): responsible vulnerability reporting for the core project. **Official**
-- [tdk-auth-queue-email-example](https://github.com/flisk-sh/tdk-auth-queue-email-example): local identity, queue, and email example with an OIDC emulator, NATS JetStream, and Mailpit. **Official**
-- [tdk-user-management](https://github.com/flisk-sh/tdk-user-management): identity and user-management demo organized into TDK stacks. **Official**
+- [flisk-auth-queue-email-example](https://github.com/flisk-sh/flisk-auth-queue-email-example): local identity, queue, and email example with an OIDC emulator, NATS JetStream, and Mailpit. **Official**
+- [flisk-user-management](https://github.com/flisk-sh/flisk-user-management): identity and user-management demo organized into TDK stacks. **Official**
 
 ## Extensions and historical projects
 
