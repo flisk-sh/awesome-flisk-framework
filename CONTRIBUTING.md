@@ -37,7 +37,7 @@ Use **Official** for resources maintained by `flisk-sh`, **Community** for indep
 
 ## Submit a change
 
-For a small suggestion or a question, [open an issue](https://github.com/flisk-sh/awesome-tdk-framework/issues). To add or correct links directly:
+For a small suggestion or a question, [open an issue](https://github.com/flisk-sh/awesome-flisk-framework/issues). To add or correct links directly:
 
 1. Fork the repository and create a branch.
 2. Edit `README.md` and follow the entry format above.

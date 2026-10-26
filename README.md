@@ -39,7 +39,7 @@ A curated map of **Flisk (Tilt Development Kit)**: the CLI, guides, examples, in
 - [flisk](https://github.com/flisk-sh/flisk): the main public monorepo for the CLI, Tilt engine, and service discovery. **Official**
   - Install: `npm i -g @flisk-sh/flisk` or [the install script](https://flisk.sh/install.sh).
   - Run: `flisk doctor` then `flisk project example` / `flisk up`.
-  - Issues: [flisk issue tracker](https://github.com/flisk-sh/flisk/issues) only. This `awesome-tdk-framework` catalog is not the CLI.
+  - Issues: [flisk issue tracker](https://github.com/flisk-sh/flisk/issues) only. This `awesome-flisk-framework` catalog is not the CLI.
 
 ## Core framework and releases
 
@@ -79,7 +79,7 @@ For current run state, open a workflow above. Result files are point-in-time rec
 
 ## Learning and articles
 
-- [Flisk Labs](https://flisk-sh.github.io/tdk-labs/) ([source](https://github.com/flisk-sh/tdk-labs)): ordered lessons with captured CLI output, the files each command writes, and a static replay. Labs 02 and 03 are marked pending until their capture image is published. **Official**
+- [Flisk Labs](https://flisk-sh.github.io/flisk-labs/) ([source](https://github.com/flisk-sh/flisk-labs)): ordered lessons with captured CLI output, the files each command writes, and a static replay. Labs 02 and 03 are marked pending until their capture image is published. **Official**
 - [Flisk blog](https://flisk.sh/blog/): browse the complete official article library. **Official**
 - [We Ran 100 Microservices on a 16GB Laptop. No Kubernetes.](https://dev.to/mynameis0d3c53a3/we-ran-100-microservices-on-a-16gb-laptop-no-kubernetes-590e): Flisk overview and reproducible scale benchmark using the 100-service ERP example. **Community**
 
@@ -182,8 +182,8 @@ For current run state, open a workflow above. Result files are point-in-time rec
 <details>
 <summary>Platform (2)</summary>
 
-- [The DevOps Case for Flisk](https://flisk.sh/blog/articles/the-devops-case-for-tdk/): How generated local environments keep platform attention closer to production reliability. **Official**
-- [The Platform Engineer Case for Flisk](https://flisk.sh/blog/articles/the-platform-engineer-case-for-tdk/): Why platform teams should automate local development instead of becoming laptop support. **Official**
+- [The DevOps Case for Flisk](https://flisk.sh/blog/articles/the-devops-case-for-flisk/): How generated local environments keep platform attention closer to production reliability. **Official**
+- [The Platform Engineer Case for Flisk](https://flisk.sh/blog/articles/the-platform-engineer-case-for-flisk/): Why platform teams should automate local development instead of becoming laptop support. **Official**
 
 </details>
 
@@ -193,8 +193,8 @@ For current run state, open a workflow above. Result files are point-in-time rec
 - [A Better Default for Service Teams](https://flisk.sh/blog/articles/a-better-default-for-service-teams/): Why Flisk is built for teams that want standard tools, faster feedback, and less local ceremony. **Official**
 - [Local First Does Not Mean Local Only](https://flisk.sh/blog/articles/local-first-does-not-mean-local-only/): Why strong local development complements CI, staging, and production instead of replacing them. **Official**
 - [The Difference Between Simple and Simplistic](https://flisk.sh/blog/articles/the-difference-between-simple-and-simplistic/): How Flisk tries to reduce local complexity without pretending distributed systems are easy. **Official**
-- [Why Flisk Does Not Hide the Stack](https://flisk.sh/blog/articles/why-tdk-does-not-hide-the-stack/): Flisk exposes standard tools because hiding every detail makes teams weaker when debugging starts. **Official**
-- [Why Flisk Is Not a Cloud IDE](https://flisk.sh/blog/articles/why-tdk-is-not-a-cloud-ide/): The difference between renting a remote machine and generating a better local development surface. **Official**
+- [Why Flisk Does Not Hide the Stack](https://flisk.sh/blog/articles/why-flisk-does-not-hide-the-stack/): Flisk exposes standard tools because hiding every detail makes teams weaker when debugging starts. **Official**
+- [Why Flisk Is Not a Cloud IDE](https://flisk.sh/blog/articles/why-flisk-is-not-a-cloud-ide/): The difference between renting a remote machine and generating a better local development surface. **Official**
 
 </details>
 
@@ -203,7 +203,7 @@ For current run state, open a workflow above. Result files are point-in-time rec
 
 - [Terminal UI for Real Work](https://flisk.sh/blog/articles/terminal-ui-for-real-work/): How a focused terminal interface can make a complex service landscape easier to scan. **Official**
 - [The CLI as a Calm Interface](https://flisk.sh/blog/articles/the-cli-as-a-calm-interface/): Why a development CLI should guide without burying engineers under flags and hidden states. **Official**
-- [The Product Engineer Case for Flisk](https://flisk.sh/blog/articles/the-product-engineer-case-for-tdk/): How product developers can ship across services without memorizing infrastructure internals. **Official**
+- [The Product Engineer Case for Flisk](https://flisk.sh/blog/articles/the-product-engineer-case-for-flisk/): How product developers can ship across services without memorizing infrastructure internals. **Official**
 - [Why Local Dev Needs Product Design](https://flisk.sh/blog/articles/why-local-dev-needs-product-design/): Internal tools still have users, workflows, friction, and moments where clarity matters. **Official**
 
 </details>
@@ -225,7 +225,7 @@ For current run state, open a workflow above. Result files are point-in-time rec
 - [What SDD Cannot Do](https://flisk.sh/blog/articles/what-sdd-cannot-do/): Why specs cannot replace product judgment, architecture tradeoffs, operational feedback, or integration testing. **Official**
 - [What SDD Gets Right](https://flisk.sh/blog/articles/what-sdd-gets-right/): The useful parts of spec-driven development: shared language, reviewable intent, and better AI handoffs. **Official**
 - [When Specs Lie Quietly](https://flisk.sh/blog/articles/when-specs-lie-quietly/): A practical look at stale assumptions, missing edge cases, and the false comfort of tidy requirements. **Official**
-- [Why Flisk Matters After the Spec](https://flisk.sh/blog/articles/why-tdk-matters-after-the-spec/): A closing argument for pairing spec-driven thinking with a development workbench that can actually run the system. **Official**
+- [Why Flisk Matters After the Spec](https://flisk.sh/blog/articles/why-flisk-matters-after-the-spec/): A closing argument for pairing spec-driven thinking with a development workbench that can actually run the system. **Official**
 
 </details>
 
@@ -242,7 +242,7 @@ For current run state, open a workflow above. Result files are point-in-time rec
 
 - [MVP Speed Without Throwaway Tooling](https://flisk.sh/blog/articles/mvp-speed-without-throwaway-tooling/): Why fast early product work still deserves a local stack that can survive growth. **Official**
 - [The Fast Path to a Useful Demo](https://flisk.sh/blog/articles/the-fast-path-to-a-useful-demo/): Why a runnable multi-service demo beats screenshots when teams need product feedback. **Official**
-- [The Founder Case for Flisk](https://flisk.sh/blog/articles/the-founder-case-for-tdk/): How Flisk reduces setup drag so tiny teams spend more time on customer-facing decisions. **Official**
+- [The Founder Case for Flisk](https://flisk.sh/blog/articles/the-founder-case-for-flisk/): How Flisk reduces setup drag so tiny teams spend more time on customer-facing decisions. **Official**
 
 </details>
 
@@ -278,7 +278,7 @@ For current run state, open a workflow above. Result files are point-in-time rec
 - [Plain Docker Is Still a Feature](https://flisk.sh/blog/articles/plain-docker-is-still-a-feature/): Why standard generated Docker files are easier to inspect, debug, and keep than opaque platform magic. **Official**
 - [Prisma in a Generated Stack](https://flisk.sh/blog/articles/prisma-in-a-generated-stack/): Where ORM setup fits when service definitions generate development infrastructure. **Official**
 - [Starlark for Repeatable Local Rules](https://flisk.sh/blog/articles/starlark-for-repeatable-local-rules/): Why small deterministic orchestration rules can beat a pile of custom shell scripts. **Official**
-- [flisk doctor as Team Memory](https://flisk.sh/blog/articles/tdk-doctor-as-team-memory/): How health checks can replace long troubleshooting threads with actionable local diagnostics. **Official**
+- [flisk doctor as Team Memory](https://flisk.sh/blog/articles/flisk-doctor-as-team-memory/): How health checks can replace long troubleshooting threads with actionable local diagnostics. **Official**
 - [The Case for Verdaccio](https://flisk.sh/blog/articles/the-case-for-verdaccio/): How a local package registry supports service-heavy TypeScript development. **Official**
 - [The Discipline of Boring Defaults](https://flisk.sh/blog/articles/the-discipline-of-boring-defaults/): Why teams move faster when generated defaults are predictable, readable, and unexciting. **Official**
 - [The Problem With Perfect Templates](https://flisk.sh/blog/articles/the-problem-with-perfect-templates/): Why templates help only when they keep matching the system after the first generation. **Official**
@@ -295,7 +295,7 @@ For current run state, open a workflow above. Result files are point-in-time rec
 - [From Product Intent to Runnable Services](https://flisk.sh/blog/articles/from-product-intent-to-runnable-services/): How Flisk turns service definitions into local systems developers can actually inspect and run. **Official**
 - [Frontend and Backend in One Loop](https://flisk.sh/blog/articles/frontend-and-backend-in-one-loop/): Why product work moves faster when UI, API, and generated clients update together. **Official**
 - [The Practical Beauty of One Command](https://flisk.sh/blog/articles/the-practical-beauty-of-one-command/): Why one reliable command can be more valuable than a thick setup guide. **Official**
-- [What Belongs in CI After Flisk](https://flisk.sh/blog/articles/what-belongs-in-ci-after-tdk/): How local reproducibility changes what teams expect from continuous integration. **Official**
+- [What Belongs in CI After Flisk](https://flisk.sh/blog/articles/what-belongs-in-ci-after-flisk/): How local reproducibility changes what teams expect from continuous integration. **Official**
 - [Why Big Repos Need Small Rituals](https://flisk.sh/blog/articles/why-big-repos-need-small-rituals/): How simple repeated commands can hold a large service graph together. **Official**
 
 </details>
@@ -308,11 +308,11 @@ For current run state, open a workflow above. Result files are point-in-time rec
 
 Use Flisk from AI coding agents. Agents run `flisk up` locally; none of this is a deploy path.
 
-- [tdk-skills](https://github.com/flisk-sh/tdk-skills): portable Agent Skills (`tdk-doctor`, `tdk-troubleshoot`, `layer-autoresearch`) plus `AGENTS.md` rule templates. Install with `npx skills add flisk-sh/tdk-skills`. **Official**
+- [flisk-skills](https://github.com/flisk-sh/flisk-skills): portable Agent Skills (`flisk-doctor`, `flisk-troubleshoot`, `layer-autoresearch`) plus `AGENTS.md` rule templates. Install with `npx skills add flisk-sh/flisk-skills`. **Official**
 - [Agents guide](https://flisk.sh/docs/agents/): how agents should drive the Flisk CLI. **Official**
 - [Website llms.txt](https://flisk.sh/llms.txt): machine-readable index of the Flisk docs. **Official**
-- [tdk-skills llms.txt](https://github.com/flisk-sh/tdk-skills/blob/main/llms.txt): index of every skill and rules template with raw URLs. **Official**
-- [Repository rule templates](https://github.com/flisk-sh/tdk-skills/tree/main/rules): baseline `AGENTS.md` files for Flisk project repos and for `flisk` contributors. **Official**
+- [flisk-skills llms.txt](https://github.com/flisk-sh/flisk-skills/blob/main/llms.txt): index of every skill and rules template with raw URLs. **Official**
+- [Repository rule templates](https://github.com/flisk-sh/flisk-skills/tree/main/rules): baseline `AGENTS.md` files for Flisk project repos and for `flisk` contributors. **Official**
 
 ## Notes and gists
 
@@ -325,7 +325,7 @@ Prefer [flisk docs](https://github.com/flisk-sh/flisk/tree/main/docs) when the g
 
 | Title | URL | Topic | Label | Maps to |
 | --- | --- | --- | --- | --- |
-| ["Bind for 0.0.0.0:PORT failed: port is already allocated" every time I add a new service](https://gist.github.com/kburym/72921806b31b037686d0539fbe9b0643) | [Permalink](https://gist.github.com/kburym/72921806b31b037686d0539fbe9b0643) | ports | **Official** | [`tdk resources --ports`](https://github.com/flisk-sh/flisk#quick-start) |
+| ["Bind for 0.0.0.0:PORT failed: port is already allocated" every time I add a new service](https://gist.github.com/kburym/72921806b31b037686d0539fbe9b0643) | [Permalink](https://gist.github.com/kburym/72921806b31b037686d0539fbe9b0643) | ports | **Official** | [`flisk resources --ports`](https://github.com/flisk-sh/flisk#quick-start) |
 | ["Error: connect ECONNREFUSED 127.0.0.1" between two of my own containers — the localhost trap](https://gist.github.com/kburym/39c7cd4e88cbcafb3e2d55fcbb13fdce) | [Permalink](https://gist.github.com/kburym/39c7cd4e88cbcafb3e2d55fcbb13fdce) | networking | **Official** | [Local routing and `*.localhost` example](https://github.com/flisk-sh/flisk/blob/main/docs/with-helm.md#one-backend-through-both-paths) |
 | ["depends_on doesn't wait for another service" — the Docker Compose startup-order trap](https://gist.github.com/kburym/c3f873b9132ef7f622fc75359675f3fe) | [Permalink](https://gist.github.com/kburym/c3f873b9132ef7f622fc75359675f3fe) | compose | **Official** | [`flisk up`](https://github.com/flisk-sh/flisk#quick-start) |
 | [Cannot find module errors across my TypeScript monorepo services — the tsconfig paths trap](https://gist.github.com/kburym/74c419dab1f9901b9a26c9c25aea20f8) | [Permalink](https://gist.github.com/kburym/74c419dab1f9901b9a26c9c25aea20f8) | typescript | **Official** | [TypeScript generator and wiring overview](https://github.com/flisk-sh/flisk/blob/main/docs/TOPOLOGY.md#stage-2-tilt-discovers-resources-and-generates-runtime-configuration) |
@@ -452,9 +452,9 @@ Flisk references: [CLI scripts and dependencies](https://github.com/flisk-sh/fli
 ## Extensions and historical projects
 
 - [Current CLI extensions](https://github.com/flisk-sh/flisk/tree/main/ext): extension and IDE integration source maintained in the core monorepo. **Official**
-- [tdk-discovery](https://github.com/flisk-sh/flisk): **Archived.** Earlier standalone service-discovery repository; current development is in [flisk](https://github.com/flisk-sh/flisk).
-- [tdk-ext](https://github.com/flisk-sh/flisk): **Archived.** Earlier extensions repository; use the current [flisk extension documentation](https://github.com/flisk-sh/flisk/tree/main/ext) for current work.
-- [tdk](https://github.com/flisk-sh/tdk): **Archived.** Earlier platform specifications and generators repository; consult the current core repository and website for maintained material.
+- [flisk-discovery](https://github.com/flisk-sh/flisk): **Archived.** Earlier standalone service-discovery repository; current development is in [flisk](https://github.com/flisk-sh/flisk).
+- [flisk-ext](https://github.com/flisk-sh/flisk): **Archived.** Earlier extensions repository; use the current [flisk extension documentation](https://github.com/flisk-sh/flisk/tree/main/ext) for current work.
+- [flisk](https://github.com/flisk-sh/tdk): **Archived.** Earlier platform specifications and generators repository; consult the current core repository and website for maintained material.
 
 ## Community and contribution
 
@@ -465,4 +465,4 @@ Flisk references: [CLI scripts and dependencies](https://github.com/flisk-sh/fli
 
 ## Contributing to this catalog
 
-Suggest additions through an [issue](https://github.com/flisk-sh/awesome-tdk-framework/issues) or pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for the inclusion criteria, labels, and submission steps.
+Suggest additions through an [issue](https://github.com/flisk-sh/awesome-flisk-framework/issues) or pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for the inclusion criteria, labels, and submission steps.
