@@ -1,15 +1,15 @@
 # Contributing
 
-Thanks for helping make the TDK resource catalog more useful. This repository is a curated directory for developers using or extending [TDK](https://github.com/flisk-sh/flisk).
+Thanks for helping make the Flisk resource catalog more useful. This repository is a curated directory for developers using or extending [Flisk](https://github.com/flisk-sh/flisk).
 
 ## What belongs here
 
-Suggest a public resource that is directly useful to people working with TDK, such as an official project, example, extension, integration, tutorial, article, gist, talk, or supporting tool. The catalog aims to include useful work from the wider community as well as official TDK resources.
+Suggest a public resource that is directly useful to people working with Flisk, such as an official project, example, extension, integration, tutorial, article, gist, talk, or supporting tool. The catalog aims to include useful work from the wider community as well as official Flisk resources.
 
 Before proposing an entry, check that it:
 
 - Has a public, working, canonical URL.
-- Has a clear connection to TDK and a concise description of its use.
+- Has a clear connection to Flisk and a concise description of its use.
 - Is not already listed under another heading.
 - Is labeled accurately as **Official**, **Community**, **External project**, or **Archived**.
 - Is maintained or still useful; mark inactive repositories as **Archived**.
@@ -17,7 +17,7 @@ Before proposing an entry, check that it:
 For gists specifically:
 
 - The gist must be public and reachable without login.
-- It must be about TDK or the local-development problems TDK claims to solve.
+- It must be about Flisk or the local-development problems Flisk claims to solve.
 - Maintainer or website-contributor gists are **Official**; third-party gists are **Community** only after a maintainer checks they are not spam.
 - Do not include paywalled or deleted gists.
 - If a gist duplicates an official article, link the article as the primary resource and describe the gist as a “short note.”
@@ -33,7 +33,7 @@ Add one Markdown bullet under the most relevant heading in `README.md`:
 - [Resource name](https://example.org): one-sentence description. **Community**
 ```
 
-Use **Official** for resources maintained by `flisk-sh`, **Community** for independently maintained TDK resources, **External project** for a tool or technology used by TDK, and **Archived** for discontinued repositories. Use the appropriate label for the resource rather than assuming every project in the TDK organization is currently maintained.
+Use **Official** for resources maintained by `flisk-sh`, **Community** for independently maintained Flisk resources, **External project** for a tool or technology used by Flisk, and **Archived** for discontinued repositories. Use the appropriate label for the resource rather than assuming every project in the Flisk organization is currently maintained.
 
 ## Submit a change
 
