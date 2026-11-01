@@ -4,7 +4,7 @@ A curated map of **Flisk (Tilt Development Kit)**: the CLI, guides, examples, in
 
 <p>
   <a href="https://github.com/flisk-sh/flisk/actions/workflows/ci.yml"><img alt="Core CI status" src="https://img.shields.io/github/actions/workflow/status/flisk-sh/flisk/ci.yml?branch=main&style=flat-square&label=CI&color=EE924E"></a>
-  <a href="https://github.com/flisk-sh/flisk/actions/workflows/erp-scale-e2e.yml"><img alt="ERP scale end-to-end status" src="https://img.shields.io/github/actions/workflow/status/flisk-sh/flisk/erp-scale-e2e.yml?branch=main&style=flat-square&label=Scale%20E2E&color=EE924E"></a>
+  <a href="https://github.com/flisk-sh/flisk/actions/workflows/e2e-journeys.yml"><img alt="End-to-end journeys status" src="https://img.shields.io/github/actions/workflow/status/flisk-sh/flisk/e2e-journeys.yml?branch=main&style=flat-square&label=E2E%20journeys&color=EE924E"></a>
   <a href="https://github.com/flisk-sh/flisk"><img alt="Core repository stars" src="https://img.shields.io/github/stars/flisk-sh/flisk?style=flat-square&color=EE924E"></a>
   <a href="https://www.npmjs.com/package/@flisk-sh/flisk"><img alt="Flisk CLI npm version" src="https://img.shields.io/npm/v/%40flisk-sh%2Fflisk?style=flat-square&color=EE924E"></a>
   <a href="https://github.com/flisk-sh/flisk/blob/main/LICENSE"><img alt="Core project license" src="https://img.shields.io/github/license/flisk-sh/flisk?style=flat-square&color=EE924E"></a>
@@ -70,9 +70,9 @@ Live checks, end-to-end coverage, and benchmark records for the core framework.
 | Signal | Resource |
 | --- | --- |
 | Continuous integration | [Core CI workflow](https://github.com/flisk-sh/flisk/actions/workflows/ci.yml) validates the main repository checks. **Official** |
-| Quickstart coverage | [Quickstart E2E workflow](https://github.com/flisk-sh/flisk/actions/workflows/quickstart-e2e.yml) exercises the documented first-run path. **Official** |
-| Example coverage | [Examples E2E workflow](https://github.com/flisk-sh/flisk/actions/workflows/examples-e2e.yml) boots the [restaurant example](https://github.com/flisk-sh/flisk-restaurant-example) and [SaaS starter](https://github.com/flisk-sh/flisk-saas-starter) on a clean runner, then checks real API routes and frontend pages, not only `/health`. **Official** |
-| Scale coverage | [ERP scale E2E workflow](https://github.com/flisk-sh/flisk/actions/workflows/erp-scale-e2e.yml) exercises the 100-service ERP landscape. [Successful run from Sep 28, 2026](https://github.com/flisk-sh/flisk/actions/runs/36397677358). **Official** |
+| Journey coverage | [E2E journeys workflow](https://github.com/flisk-sh/flisk/actions/workflows/e2e-journeys.yml) runs the first-run demo, quickstart, and other user journeys against a real stack. **Official** |
+| Resource-type coverage | [E2E resource types workflow](https://github.com/flisk-sh/flisk/actions/workflows/e2e-resource-types.yml) starts each resource type on a real stack. **Official** |
+| Benchmarks | [Benchmarks workflow](https://github.com/flisk-sh/flisk/actions/workflows/benchmarks.yml) records timings, including the 100-service ERP landscape. **Official** |
 | Scale fixture | [flisk-erp-system](https://github.com/flisk-sh/flisk-erp-system) is the multi-domain fixture used for scale testing. **Official** |
 | Recorded results | [Benchmark results](https://github.com/flisk-sh/flisk/tree/main/benchmarks/results) contains timestamped raw result files. **Official** |
 | Reproduction guide | [100 microservices on a 16GB laptop](https://dev.to/mynameis0d3c53a3/we-ran-100-microservices-on-a-16gb-laptop-no-kubernetes-590e) describes a community-run benchmark and setup. **Community** |
@@ -371,6 +371,9 @@ Teams that run `flisk up` on their own code, listed with their consent. The full
 
 - [TubeHaus](https://github.com/biolend83/tubehaus): self-hosted video stack with an optional Flisk start path next to Docker Compose; the setup was proved with a real `flisk up`. **Community**
 - [Lekast](https://www.linkedin.com/company/lekast/): runs Flisk on its own repositories. **Community**
+- [mfin.services](https://medium.com/@mfin.services): public write-up of running Flisk. **Community**
+- [MakeOffer](https://www.linkedin.com/company/makeofferio): runs Flisk on its own repositories. **Community**
+- [Red Moon Digital](https://redmoon.digital/): runs Flisk on its own repositories. **Community**
 
 ## Migrate an existing app
 
