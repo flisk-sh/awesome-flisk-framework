@@ -23,6 +23,8 @@ A curated map of **Flisk (Tilt Development Kit)**: the CLI, guides, examples, in
 | --- | --- |
 | Install and run Flisk | [Quickstart](https://flisk.sh/docs/quickstart/) |
 | Understand the framework | [Core framework](#core-framework-and-releases) / [Documentation](#documentation-and-reference) |
+| See who runs Flisk | [Adopters](#adopters) |
+| Move an existing app to Flisk | [Migrate an existing app](#migrate-an-existing-app) |
 | See working applications | [Examples and demos](#examples-and-demo-applications) / [Starters](#starters-and-scaffolding) |
 | Check project health and scale | [CI and benchmarks](#ci-and-benchmarks) |
 | Learn step by step | [Flisk Labs](#learning-and-articles) |
@@ -347,10 +349,50 @@ Maintainer notes: [kburym gists](https://gist.github.com/kburym) **Official**
 - [flisk-ecommerce-example](https://github.com/flisk-sh/flisk-ecommerce-example): Vue storefront and Hono catalog API built with Flisk. **Official**
 - [flisk-erp-system](https://github.com/flisk-sh/flisk-erp-system): 100-service ERP fixture across seven business domains, used for scale testing. **Official**
 
+- [flisk-person-crud-example](https://github.com/flisk-sh/flisk-person-crud-example): person CRUD with React, Express, MongoDB, Redis, and RabbitMQ. **Official**
+- [flisk-agent-stack](https://github.com/flisk-sh/flisk-agent-stack): AI agent stack: a Bun agent, an MCP tool server, Postgres, and NATS. The template behind `flisk project agent-stack`. **Official**
+- [vercel-store](https://github.com/flisk-sh/vercel-store): storefront landscape with a Hono BFF and a Vue frontend. **Official**
+- [flisk-thor-storefront](https://github.com/flisk-sh/flisk-thor-storefront): storefront landscape for Thor Commerce. **Official**
+
 ## Starters and scaffolding
 
 - [create-flisk](https://github.com/flisk-sh/create-flisk): starter generator and landing page for creating a Flisk stack. **Official**
+- [flisk-stack](https://github.com/flisk-sh/flisk-stack): convention-over-configuration full-stack skeleton (Actions, Models, Jobs, views, migrations) started with `flisk up`. **Official**
+- [flisk-template-launch](https://github.com/flisk-sh/flisk-template-launch): one free Bun + Hono service with SEO, icons, and a Product Hunt kit. **Official**
+- [flisk-template-portal](https://github.com/flisk-sh/flisk-template-portal): sign in with GitHub, API keys, usage, and a metered `/v1` proxy in one Bun service. **Official**
+- [flisk-cli-starter](https://github.com/flisk-sh/flisk-cli-starter): starter for a local app stack, open in any cloud dev environment. **Official**
+- [Bring-your-own templates](https://github.com/flisk-sh/flisk-template-vue): apps from the framework generators that run under `flisk up`: [Vue](https://github.com/flisk-sh/flisk-template-vue), [Next.js](https://github.com/flisk-sh/flisk-template-next-app), [Bati](https://github.com/flisk-sh/flisk-template-bati) (React + Hono), [Analog](https://github.com/flisk-sh/flisk-template-analog) (Angular), and [AdonisJS](https://github.com/flisk-sh/flisk-template-adonisjs). **Official**
+- [flisk-service-definitions](https://github.com/flisk-sh/flisk-service-definitions): community registry of `service.json` definitions, one directory per app, validated against the schema. **Official**
 - [More example repositories](https://github.com/flisk-sh?tab=repositories&q=example): browse public Flisk example repositories. **Official**
+
+## Adopters
+
+Teams that run `flisk up` on their own code, listed with their consent. The full list and the form to add your team are in [ADOPTERS.md](https://github.com/flisk-sh/flisk/blob/main/docs/project/ADOPTERS.md).
+
+- [TubeHaus](https://github.com/biolend83/tubehaus): self-hosted video stack with an optional Flisk start path next to Docker Compose; the setup was proved with a real `flisk up`. **Community**
+- [Lekast](https://www.linkedin.com/company/lekast/): runs Flisk on its own repositories. **Community**
+
+## Migrate an existing app
+
+Bring a Compose, Procfile, or Dockerfile project to Flisk without rewriting it, and export deploy files back out.
+
+- [flisk-import](https://github.com/flisk-sh/flisk-import): scan a repo and import its Procfile, Compose, Dockerfile, and `package.json` services into Flisk. Keeps ports, healthchecks, env, volume names, and the Compose project name. **Official**
+- [flisk-export](https://github.com/flisk-sh/flisk-export): write `render.yaml`, `wrangler.toml`, or Compose files from `service.json`. Files only; it never deploys. **Official**
+- [Bring-your-own guide](https://github.com/flisk-sh/flisk/blob/main/docs/byo.md): wrap an existing service with Flisk orchestration. **Official**
+
+## Apps and tools built with Flisk
+
+- [fliskos](https://github.com/flisk-sh/fliskos): local desktop command center for Flisk projects. **Official**
+- [pages](https://github.com/flisk-sh/pages): publish an interactive page from your agent to pages.flisk.si. **Official**
+- [citable](https://github.com/flisk-sh/citable): check whether AI answers can cite your site. **Official**
+- [readme-score](https://github.com/flisk-sh/readme-score): score a README out of 100, with a fix for every miss. **Official**
+- [helpdock](https://github.com/flisk-sh/helpdock): your docs as a help center that answers with sources, with an MCP server. **Official**
+- [flisk-tools](https://github.com/flisk-sh/flisk-tools): run small web and GitHub tools on your own GitHub. **Official**
+- [live-preview](https://github.com/flisk-sh/live-preview): public HTTPS link for a Docker stack on a GitHub Actions runner. **Official**
+- [command-comparer](https://github.com/flisk-sh/command-comparer): Flisk next to Terraform, CDK, Compose, Tilt, Skaffold, and more, with a source for every cell. **Official**
+- [roadmap](https://github.com/flisk-sh/roadmap): community-edited map of local DevEx tools. **Official**
+- [awesome-rea-flisk-cases](https://github.com/flisk-sh/awesome-rea-flisk-cases): reverse-engineer apps and rebuild them with Flisk. **Official**
+- [flisk-model](https://github.com/flisk-sh/flisk-model): a 62-question test of whether a small model can write correct Flisk config files. **Official**
 
 ## Tools and technologies
 
