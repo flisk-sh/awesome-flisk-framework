@@ -50,7 +50,7 @@ A curated map of **Flisk (Tilt Development Kit)**: the CLI, guides, examples, in
 - [releases](https://github.com/flisk-sh/releases/releases): prebuilt Flisk CLI binaries for supported platforms. **Official**
 - [flisk.sh](https://github.com/flisk-sh/flisk-sh.github.io): source for the public install site and CLI installer. **Official**
 - [Install script](https://flisk.sh/install.sh): shell installer for the published CLI binary. **Official**
-- [Changelog](https://github.com/flisk-sh/flisk/blob/main/CHANGELOG.md): notable CLI and framework changes. **Official**
+- [Changelog](https://github.com/flisk-sh/flisk/releases): notable CLI and framework changes. **Official**
 
 ## Documentation and reference
 
