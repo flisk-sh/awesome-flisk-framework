@@ -81,7 +81,7 @@ For current run state, open a workflow above. Result files are point-in-time rec
 
 ## Learning and articles
 
-- [Flisk Labs](https://flisk-sh.github.io/flisk-labs/) ([source](https://github.com/flisk-sh/flisk-labs)): ordered lessons with captured CLI output, the files each command writes, and a static replay. Labs 02 and 03 are marked pending until their capture image is published. **Official**
+- [Flisk Labs](https://practice.flisk.si/) ([source](https://github.com/flisk-sh/flisk-labs)): ordered lessons with captured CLI output, the files each command writes, and a static replay. Labs 02 and 03 are marked pending until their capture image is published. **Official**
 - [Flisk blog](https://flisk.sh/blog/): browse the complete official article library. **Official**
 - [We Ran 100 Microservices on a 16GB Laptop. No Kubernetes.](https://dev.to/mynameis0d3c53a3/we-ran-100-microservices-on-a-16gb-laptop-no-kubernetes-590e): Flisk overview and reproducible scale benchmark using the 100-service ERP example. **Community**
 
