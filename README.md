@@ -57,7 +57,7 @@ A curated map of **Flisk (Tilt Development Kit)**: the CLI, guides, examples, in
 - [website](https://github.com/flisk-sh/website): source for the official documentation and project site. **Official**
 - [Examples guide](https://flisk.sh/docs/examples/): walkthroughs of projects built with Flisk. **Official**
 - [Core repository docs](https://github.com/flisk-sh/flisk/tree/main/docs): detailed framework documentation. **Official**
-- [Contributing to flisk](https://github.com/flisk-sh/flisk/blob/main/CONTRIBUTING.md): development setup and contribution workflow. **Official**
+- [Contributing to flisk](https://github.com/flisk-sh/flisk/blob/main/.github/CONTRIBUTING.md): development setup and contribution workflow. **Official**
 - [MCP guide](https://github.com/flisk-sh/flisk/blob/main/docs/mcp.md): scaffold a Model Context Protocol server as a resource that `flisk up` starts like any other service. **Official**
 - [Bring-your-own (BYO) guide](https://github.com/flisk-sh/flisk/blob/main/docs/byo.md): wrap an existing service with Flisk orchestration without generating application code. **Official**
 - [WSL2 guide](https://github.com/flisk-sh/flisk/blob/main/docs/wsl2.md): run Flisk on Windows through WSL2. **Official**
@@ -74,7 +74,7 @@ Live checks, end-to-end coverage, and benchmark records for the core framework.
 | Resource-type coverage | [E2E resource types workflow](https://github.com/flisk-sh/flisk/actions/workflows/e2e-resource-types.yml) starts each resource type on a real stack. **Official** |
 | Benchmarks | [Benchmarks workflow](https://github.com/flisk-sh/flisk/actions/workflows/benchmarks.yml) records timings, including the 100-service ERP landscape. **Official** |
 | Scale fixture | [flisk-erp-system](https://github.com/flisk-sh/flisk-erp-system) is the multi-domain fixture used for scale testing. **Official** |
-| Recorded results | [Benchmark results](https://github.com/flisk-sh/flisk/tree/main/benchmarks/results) contains timestamped raw result files. **Official** |
+| Recorded results | [Benchmark results](https://github.com/flisk-sh/flisk/tree/main/docs/benchmarks/results) contains timestamped raw result files. **Official** |
 | Reproduction guide | [100 microservices on a 16GB laptop](https://dev.to/mynameis0d3c53a3/we-ran-100-microservices-on-a-16gb-laptop-no-kubernetes-590e) describes a community-run benchmark and setup. **Community** |
 
 For current run state, open a workflow above. Result files are point-in-time records, not a live performance dashboard.
@@ -490,15 +490,15 @@ Flisk references: [CLI scripts and dependencies](https://github.com/flisk-sh/fli
 
 ## Security and identity
 
-- [Security policy](https://github.com/flisk-sh/flisk/blob/main/SECURITY.md): responsible vulnerability reporting for the core project. **Official**
+- [Security policy](https://github.com/flisk-sh/flisk/blob/main/.github/SECURITY.md): responsible vulnerability reporting for the core project. **Official**
 - [flisk-auth-queue-email-example](https://github.com/flisk-sh/flisk-auth-queue-email-example): local identity, queue, and email example with an OIDC emulator, NATS JetStream, and Mailpit. **Official**
 - [flisk-user-management](https://github.com/flisk-sh/flisk-user-management): identity and user-management demo organized into Flisk stacks. **Official**
 
 ## Extensions and historical projects
 
-- [Current CLI extensions](https://github.com/flisk-sh/flisk/tree/main/ext): extension and IDE integration source maintained in the core monorepo. **Official**
+- [Current CLI extensions](https://github.com/flisk-sh/flisk/tree/main/runtime/ext): extension and IDE integration source maintained in the core monorepo. **Official**
 - [flisk-discovery](https://github.com/flisk-sh/flisk): **Archived.** Earlier standalone service-discovery repository; current development is in [flisk](https://github.com/flisk-sh/flisk).
-- [flisk-ext](https://github.com/flisk-sh/flisk): **Archived.** Earlier extensions repository; use the current [flisk extension documentation](https://github.com/flisk-sh/flisk/tree/main/ext) for current work.
+- [flisk-ext](https://github.com/flisk-sh/flisk): **Archived.** Earlier extensions repository. Use the [current Flisk extension source](https://github.com/flisk-sh/flisk/tree/main/runtime/ext) for current work.
 - [flisk](https://github.com/flisk-sh/tdk): **Archived.** Earlier platform specifications and generators repository; consult the current core repository and website for maintained material.
 
 ## Community and contribution
