@@ -75,7 +75,7 @@ Live checks, end-to-end coverage, and benchmark records for the core framework.
 | Benchmarks | [Benchmarks workflow](https://github.com/flisk-sh/flisk/actions/workflows/benchmarks.yml) records timings, including the 100-service ERP landscape. **Official** |
 | Scale fixture | [flisk-erp-system](https://github.com/flisk-sh/flisk-erp-system) is the multi-domain fixture used for scale testing. **Official** |
 | Recorded results | [Benchmark results](https://github.com/flisk-sh/flisk/tree/main/docs/benchmarks/results) contains timestamped raw result files. **Official** |
-| Reproduction guide | [100 microservices on a 16GB laptop](https://dev.to/mynameis0d3c53a3/we-ran-100-microservices-on-a-16gb-laptop-no-kubernetes-590e) describes a community-run benchmark and setup. **Community** |
+| Scale benchmark | [Flisk scale and cold-boot measurements](https://github.com/flisk-sh/flisk/blob/main/docs/benchmarks/scale-bench.md) explains the 100-service fixture, setup, and measurement caveats. **Official** |
 
 For current run state, open a workflow above. Result files are point-in-time records, not a live performance dashboard.
 
@@ -83,7 +83,6 @@ For current run state, open a workflow above. Result files are point-in-time rec
 
 - [Flisk Labs](https://practice.flisk.si/) ([source](https://github.com/flisk-sh/flisk-labs)): ordered lessons with captured CLI output, the files each command writes, and a static replay. Labs 02 and 03 are marked pending until their capture image is published. **Official**
 - [Flisk blog](https://flisk.sh/blog/): browse the complete official article library. **Official**
-- [We Ran 100 Microservices on a 16GB Laptop. No Kubernetes.](https://dev.to/mynameis0d3c53a3/we-ran-100-microservices-on-a-16gb-laptop-no-kubernetes-590e): Flisk overview and reproducible scale benchmark using the 100-service ERP example. **Community**
 
 <details>
 <summary>Browse all 100 official Flisk articles by topic</summary>
@@ -337,7 +336,7 @@ Prefer [flisk docs](https://github.com/flisk-sh/flisk/tree/main/docs) when the g
 | [Building an internal developer platform? Start with the local dev loop (open-source CLI)](https://gist.github.com/kburym/8c19fd35d154813ab2857cb88cae8e71) | [Permalink](https://gist.github.com/kburym/8c19fd35d154813ab2857cb88cae8e71) | idp | **Official** | [Flisk project overview](https://github.com/flisk-sh/flisk/blob/main/docs/project-overview.md) |
 | [Cut new-developer setup time from 2 days to 8 minutes (microservices onboarding)](https://gist.github.com/kburym/33987f91306a7dca491a785dbdd65d57) | [Permalink](https://gist.github.com/kburym/33987f91306a7dca491a785dbdd65d57) | onboarding | **Official** | [`flisk project example`](https://github.com/flisk-sh/flisk#quick-start) |
 | [Docker Compose vs Kubernetes locally: how to run microservices without a cluster (FAQ)](https://gist.github.com/kburym/7f87dda05cd796e3dc5b2cb960ff7e32) | [Permalink](https://gist.github.com/kburym/7f87dda05cd796e3dc5b2cb960ff7e32) | faq | **Official** | [Flisk comparison docs](https://github.com/flisk-sh/flisk/blob/main/docs/compare-honest.md) |
-| [Run 100 microservices locally in ~8 min, no Kubernetes — quick-start for Flisk CLI](https://gist.github.com/kburym/f94342ec2d6b5a03a86f8d6a2553abd5) | [Permalink](https://gist.github.com/kburym/f94342ec2d6b5a03a86f8d6a2553abd5) | quickstart | **Official** | [Scale benchmark and caveats](https://github.com/flisk-sh/flisk/blob/main/docs/benchmarks/scale-bench.md) |
+| [Run 100 microservices locally in ~8 min, no Kubernetes — quick-start for Flisk CLI](https://gist.github.com/kburym/f94342ec2d6b5a03a86f8d6a2553abd5) | [Permalink](https://gist.github.com/kburym/f94342ec2d6b5a03a86f8d6a2553abd5) | quickstart | **Official** | [Scale benchmark and caveats](#ci-and-benchmarks) |
 
 Maintainer notes: [kburym gists](https://gist.github.com/kburym) **Official**
 
